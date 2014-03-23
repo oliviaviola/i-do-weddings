@@ -1,21 +1,55 @@
-#navi {
-
-	border: 2px solid #000;
-	border-left: none;
-	border-right: none;
-	background-color: transparent;
+.container {
+	padding-left:150px;
+	padding-right:150px;
 }
 
-.nav {
+.container-fluid .nav  {
+	background-color: #fff;
+}
+
+#navi {
+
+	border: 1.5px solid #000;
+	border-left: none;
+	border-right: none;
+	background-color: #fff;
+}
+
+.navbar-default {
+	padding-right: 100px;
+	padding-left: 100px;
 	background-color: transparent;
+	border: 0px;
 }
 
 #logo {
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 }
 
 #slogan {
-	padding: 30px;
+	padding-top: 20px;
 
+}
+
+#social {
+	text-align: center;
+}
+
+img {
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+footer {
+	padding: 10px;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color:;
+}
+
+.form-control {
+	border-radius: 0px;
 }
