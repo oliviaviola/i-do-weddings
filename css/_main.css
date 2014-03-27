@@ -74,9 +74,16 @@ footer a {
 	float: none;
 }
 
-#footer-bg {
-	background: url('img/footer.png');
+.wrapper {
+	background: url('../img/footer.png');
 }
+
+.fix {
+	height:500px;
+}
+/*#footer-bg {
+	background: url('img/footer.png');
+}*/
 
 #footer-top {
 	margin-top: 50px;
